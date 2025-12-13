@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Designanimals</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div id="mainContainer">
+    <div id="messageArea">
+        <!-- Top section with header and statistics -->
+        <div class="stats-section">
+            <div class="header" data-i18n="header">Destroy the grid, unleash the instinct.</div>
+            <div class="stats-container">
+                <div class="stats-label" data-i18n="speed">Speed:</div>
+                <div class="stats-value" id="movement-speed">0</div>
+            </div>
+            <div class="stats-container">
+                <div class="stats-label" data-i18n="style">Style:</div>
+                <div class="stats-value" id="movement-pattern" data-i18n="analyzing">analyzing...</div>
+            </div>
+            <div class="stats-container">
+                <div class="stats-label" data-i18n="span">Span:</div>
+                <div class="stats-value" id="movement-range">0</div>
+            </div>
+        </div>
+
+        <!-- Result section (contains both English and Russian structures) -->
+        <div class="result-section">
+            <!-- English result structure -->
+            <div class="result-text en-structure">
+                <span id="original-animal-word" data-i18n="animals">Animal's</span><span id="animal-word" class="animal-name"></span><br>
+                {<span id="animal-instinct-placeholder" class="instinct-word" data-i18n="instinct">instinct</span><span id="animal-instinct" class="instinct-word"></span>}<br>
+                <span id="unleashed" data-i18n="unleashed">unleashed</span>
+            </div>
+
+            <!-- Russian result structure (initially hidden) -->
+            <div class="result-text ru-structure" style="display: none;">
+                {<span id="ru-animal-instinct-placeholder" class="instinct-word" data-i18n="instinct">инстинкт</span><span id="ru-animal-instinct" class="instinct-word"></span>}<br>
+                <span id="ru-original-animal-word" data-i18n="animals-ru">животного</span><span id="ru-animal-word" class="animal-name"></span><br>
+                <span id="manifested-word" data-i18n="manifested">проявлен</span>
+            </div>
+
+            <div class="description-container">
+                <div id="animal-description" class="description-text"></div>
+            </div>
+        </div>
+
+    </div>
+    <div id="canvasContainer">
+        <!-- Language switcher -->
+        <div class="lang-switcher">
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="ru">RU</button>
+        </div>
+
+        <canvas id="canvas"></canvas>
+        <canvas id="outlineCanvas"></canvas>
+    </div>
+</div>
+
+<!-- Load scripts -->
+<script src="javascript/i18n.js"></script>
+<script src="javascript/animalDatabase.js"></script>
+<script src="javascript/script.js"></script>
+</body>
+</html>
