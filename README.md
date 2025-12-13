@@ -65,7 +65,7 @@ Full support for multiple languages with cultural adaptation:
 ### Quick Start
 1. Clone the repository:
    ```bash
-   git clone https://katebutorina.github.io/design-animal-analyzer/
+   git clone https://github.com/katebutorina/design-instinct.git
    ```
 
 2. Open `index.html` in your browser - that's it! No build process required.
