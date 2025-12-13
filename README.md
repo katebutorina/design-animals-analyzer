@@ -19,7 +19,7 @@ Designanimals combines psychology, interaction design, and real-time analysis to
 
 ## 🚀 Live Demo
 
-[Try Designanimals Now](https://katebutorina.github.io/design-instinct/)
+[Try Designanimals Now](https://github.com/katebutorina/design-animals-analyzer)
 
 ## 🦊 The Eight Design Animals
 
