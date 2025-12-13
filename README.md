@@ -19,7 +19,7 @@ Designanimals combines psychology, interaction design, and real-time analysis to
 
 ## 🚀 Live Demo
 
-[Try Designanimals Now](https://katebutorina.github.io/design-animal-analyzer/)
+[Try Designanimals Now](https://katebutorina.github.io/design-instinct/)
 
 ## 🦊 The Eight Design Animals
 
@@ -140,7 +140,7 @@ Contributions are welcome! Here are some ways you can help:
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is open source and available under the [MIT License].
 
 ---
 
