@@ -144,6 +144,7 @@ This project is open source and available under the [MIT License].
 
 ---
 
-**Discover your design instinct. What animal will you be?** 🎨
+**Discover your design instinct. What animal will you be?**
+
 
 *Made with ❤️ for the design community*
